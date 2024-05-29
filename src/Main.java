@@ -342,7 +342,7 @@ public class Main {
                     KnapsackResult recResult = knapsackRec(w, v, n, W);
                     endTime = System.nanoTime();
                     absoluteTime = endTime - startTime;
-                    System.out.println("Решение рекурсивным методом: " + recResult);
+                    System.out.println("Решение рекурсивным методом: " + recResult.maxValue);
                     System.out.println("Время выполнения : " + absoluteTime);
 
                     startTime = System.nanoTime();
